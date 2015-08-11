@@ -1,0 +1,18 @@
+<header>IM ON TOP</header>
+<h1>Welcome#index</h1>
+<p>Winning</p>
+<%= @homeland %>
+
+<ul>
+  <% @countries.each do |country| %>
+  <li><%= country %></li>
+  <% end %>
+</ul>
+
+
+<% @images.each do |image|%>
+<%= image_tag image , height: 400, width: 300  %>
+<% end %>
+
+
+<footer>I AM FOOT</footer>
